@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxt -c nuxt.config.js",
+    "build": "nuxt build -c nuxt.config.js",
+    "start": "nuxt start -c nuxt.config.js",
+    "lint": "eslint --fix --ext .js,.vue",
+    "deploy": "pm2 start npm --name nuxtjs -- start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.8",
+    "@nuxtjs/recaptcha": "^1.1.1",
+    "@nuxtjs/router": "^1.5.0",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.1",
+    "jquery": "^3.5.1",
+    "js-cookie": "^2.2.1",
+    "node-sass": "^8.0.0",
+    "nuxt": "^2.14.7",
+    "peerjs": "^1.4.7",
+    "popper.js": "^1.16.1",
+    "socket.io": "^4.5.2",
+    "sweetalert2": "^10.10.4",
+    "vee-validate": "^2.2.15",
+    "vform": "^1.0.1",
+    "vue-i18n": "^8.22.2",
+    "vuesax": "^4.0.1-alpha.16"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.12.1",
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "eslint": "^7.14.0",
+    "fs-extra": "^9.0.1",
+    "sass-loader": "^10.1.0"
+  }
+}
